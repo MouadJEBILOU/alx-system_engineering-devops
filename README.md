@@ -10,7 +10,7 @@ TASK 1: Write a script that prints the effective username of the current user:
 echo $USER
 
 
-TASK 2: Write a script that changes the owner of the file hello to the user betty:
+TASK 3: Write a script that changes the owner of the file hello to the user betty:
 
 #!/bin/bash
 chown betty hello
