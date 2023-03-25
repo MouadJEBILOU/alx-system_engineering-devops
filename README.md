@@ -20,3 +20,7 @@ TASK 4 : Write a script that creates an empty file called hello :
 #!/bin/bash
 touch hello
 
+TASK 5 : Write a script that adds execute permission to the owner of the file hello :
+#!/bin/bash
+chmod u+x hello
+
