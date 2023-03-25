@@ -31,3 +31,12 @@ chmod u+x,g+x,o+r hello
 TASK 7 : Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello :
 #!/bin/bash
 chmod ugo+x hello
+
+TASK 8 : Write a script that sets the permission to the file hello as follows:
+
+Owner: no permission at all
+Group: no permission at all
+Other users: all the permissions
+
+#!/bin/bash
+chmod 0,u-r,g-r,o+rwx hello
