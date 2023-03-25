@@ -24,3 +24,6 @@ TASK 5 : Write a script that adds execute permission to the owner of the file he
 #!/bin/bash
 chmod u+x hello
 
+TASK 6 : Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello :
+#!/bin/bash
+chmod u+x,g+x,o+r hello
