@@ -67,3 +67,7 @@ chown -R vincent:staff .
 TASK 15 : Write a script that changes the owner and the group owner of _hello to vincent and staff respectively :
 #!/bin/bash
 chown -h vincent:staff _hello
+
+TASK 17 : Write a script that will play the StarWars IV episode in the terminal :
+#!/bin/bash
+telnet towel.blinkenlights.nl
