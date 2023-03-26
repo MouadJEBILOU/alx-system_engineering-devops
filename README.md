@@ -49,4 +49,4 @@ chmod --reference=olleh hello
 
 TASK 11 : Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users :
 #!/bin/bash
-find . -type d -exec chmod a+x {} \;
+find . -type d | xargs chmod +x
