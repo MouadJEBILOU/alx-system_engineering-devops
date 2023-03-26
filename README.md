@@ -42,3 +42,8 @@ chmod 007 hello
 TASK 9 : Write a script that sets the mode of the file hello :
 #!/bin/bash
 chmod 731 hello
+
+TASK 10 : Write a script that sets the mode of the file hello the same as olleh’s mode :
+#!/bin/bash
+chmod --reference=olleh hello
+
