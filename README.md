@@ -41,4 +41,4 @@ chmod 007 hello
 
 TASK 9 : Write a script that sets the mode of the file hello :
 #!/bin/bash
-chmod 0477 hello
+chmod 731 hello
