@@ -39,4 +39,4 @@ Group: no permission at all
 Other users: all the permissions
 
 #!/bin/bash
-chmod 0,u-r,g-r,o+rwx hello
+chmod 007 hello
