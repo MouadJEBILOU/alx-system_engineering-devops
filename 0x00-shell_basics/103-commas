@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1a | sort -df | awk '{printf "%s%s%s%s", (NR==1 || NR==2)? $0", ":"", ($0~/\/$/)? $0", ":$0", ", (NR==n)? "\n":" "}' n=$(ls -1a | wc -l)
+ls -A --group-directories-first --indicator-style=slash | LC_COLLATE=C sort -k1,1 -k2,2 -t/ -g | tr '\n' ',' | sed 's/,$/\n/'
