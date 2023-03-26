@@ -33,10 +33,12 @@ TASK 7 : Write a script that adds execution permission to the owner, the group o
 chmod ugo+x hello
 
 TASK 8 : Write a script that sets the permission to the file hello as follows:
-
 Owner: no permission at all
 Group: no permission at all
 Other users: all the permissions
-
 #!/bin/bash
 chmod 007 hello
+
+TASK 9 : Write a script that sets the mode of the file hello :
+#!/bin/bash
+chmod 0477 hello
