@@ -60,4 +60,16 @@ grep -c "bin" /etc/passwd
 TASK 16 : Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd :
 grep -A 3 "root" /etc/passwd
 
-TASK 17 : 
+TASK 17 : Display all the lines in the file /etc/passwd that do not contain the pattern “bin : 
+grep -v "bin" /etc/passwd
+
+TASK 18 : Display all lines of the file /etc/ssh/sshd_config starting with a letter :
+grep '^[a-zA-Z]' /etc/ssh/sshd_config
+
+TASK 19 : Replace all characters A and c from input to Z and e respectively :
+#!/bin/bash
+tr 'Ac' 'Ze'
+
+TASK 20 :Create a script that removes all letters c and C from input.
+#!/bin/bash
+tr -d 'cC'
