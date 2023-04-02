@@ -45,3 +45,19 @@ TASK 11 :
 TASK 12 : Create a script that displays the 10 newest files in the current directory : 
 #!/bin/bash
 ls -1t | head -10
+
+TASK 13 : Create a script that takes a list of words as input and prints only words that appear exactly once : 
+#!/bin/bash
+sort | uniq -u
+
+TASK 14 : Display lines containing the pattern “root” from the file /etc/passwd :
+grep "root" /etc/passwd
+
+TASK 15 : Display the number of lines that contain the pattern “bin” in the file /etc/passwd :
+#!/bin/bash
+grep -c "bin" /etc/passwd
+
+TASK 16 : Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd :
+grep -A 3 "root" /etc/passwd
+
+TASK 17 : 
